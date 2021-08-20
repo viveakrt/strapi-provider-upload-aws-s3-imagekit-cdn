@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/viveakrt/strapi-provider-upload-aws-s3-imagekit-cdn#readme",
   "dependencies": {
-    "aws-sdk": "^2.972.0"
+    "aws-sdk": "^2.972.0",
+    "lodash": "^4.17.21"
   }
 }
