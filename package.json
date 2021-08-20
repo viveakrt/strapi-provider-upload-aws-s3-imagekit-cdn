@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-aws-s3-imagekit-cdn",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Strapi provider upload aws s3 integrated with imagekit.io cdn",
   "main": "index.js",
   "scripts": {

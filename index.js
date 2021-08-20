@@ -41,7 +41,6 @@ module.exports = {
                                     file.url = `${config.cdn}${data.Key}`;
 
                                 }
-								console.log(file.url);
 							} else {
 								file.url = data.Location;
 							}
