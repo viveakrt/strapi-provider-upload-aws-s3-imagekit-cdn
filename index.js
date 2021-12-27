@@ -52,11 +52,11 @@ module.exports = {
 			delete(file, customParams = {}) {
 				return new Promise((resolve, reject) => {
 					// delete file on S3 bucket
-					const path = file.path ? `${file.path}/` : "";
+					const path = config.path ? `${config.path}/` : "";
 					S3.deleteObject(
 						{
 							Key: `${path}${file.hash}${file.ext}`,
-							...customParams,
+							Bucket:	config.params.Bucket,
 						},
 						(err, data) => {
 							if (err) {
